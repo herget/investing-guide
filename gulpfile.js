@@ -1,6 +1,10 @@
 const gulp = require('gulp')
 const staticI18nHtml = require('gulp-static-i18n-html')
 
+const img = () => 
+    gulp.src(['img/*.*'])
+        .pipe(gulp.dest('./dist/img'))
+
 const en = () => 
     gulp.src(['*.html'])
         .pipe(gulp.dest('./dist'))
@@ -13,4 +17,4 @@ const i18n = () =>
         }))
         .pipe(gulp.dest('./dist'))
 
-exports.default = gulp.parallel(en, i18n)
+exports.default = gulp.parallel(img, en, i18n)
