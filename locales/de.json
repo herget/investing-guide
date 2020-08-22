@@ -8,5 +8,9 @@
     "description": "Unabhängiger Investment-Guide mit Schritt für Schritt Anleitung. Einmal aufgesetzt, wird es für dich passiv und auf Autopilot anlegen.",
     "lang": "de"
   },
-  "title": "Investing Guide - In 10 Schritten zum ehrlichen Portfolio"
+  "intro": {
+    "title": "Investing Guide - In 10 Schritten zum ehrlichen Portfolio",
+    "description": "Dein unabhängiger Investment-Guide mit Schritt für Schritt Anleitung. Mit Referenzen und weiterführenden Artikeln für dein gutes Bauchgefühl. Einmal aufgesetzt, wird es für dich passiv und auf Autopilot weiterarbeiten und das bei geringst möglichen Kosten.",
+    "portfolio": "20 Jahre Wertentwicklung (von 10,000 USD) bei einem 50 % Aktien- / 50 % Anleihen-Portfolio."
+  }
 }
