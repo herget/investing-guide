@@ -4,6 +4,7 @@
   "description": "Open Investing Guide",
   "main": "index.html",
   "scripts": {
+    "start": "gulp watch",
     "build": "gulp"
   },
   "author": "Gabor Herget",

@@ -17,4 +17,6 @@ const i18n = () =>
         }))
         .pipe(gulp.dest('./dist'))
 
-exports.default = gulp.parallel(img, en, i18n)
+const build = gulp.parallel(img, en, i18n)
+exports.default = build
+exports.watch = () => gulp.watch(['*.html', 'locales/*.json'], build);
