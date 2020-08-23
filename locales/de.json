@@ -1,5 +1,6 @@
 {
   "site_name": "Investieren Guide",
+  "source": "Quelle",
   "links": {
     "basePath": "../"
   },
@@ -19,5 +20,10 @@
   "diversified": {
     "title": "1. Damit dein Erspartes nicht verpuffen kann, solltest du in breite Märkte investieren.",
     "description": "Streue in viele Kontinente, Länder und Branchen. Keine Sorge, damit du dich nicht umständlich durch einzelne Börsen, Aktien und Geschäftsberichte schlagen musst, wurden Indexfonds geboren. Diese bilden Märkte für dich ab und erledigen die Hintergrundarbeit, dies zum Großteil automatisiert und sogar noch bei geringen Kosten!"
+  },
+  "forbes": {
+    "title": "Viele Selfmade Millionäre mussten auf ein Pferd setzen, um hohen Erfolg ernten zu können. Um reich zu bleiben, ist es aber wichtig, Vermögen breit zu streuen.",
+    "description": "ur wenige der Forbes 400 schafften dies in Tat umzusetzen. So kommt es, dass nur 16 % der Superreichen über einen Zeitraum von 20 Jahren sich in der Liste halten konnten. Lediglich 4,5 % Rendite pro Jahr wäre notwendig gewesen, um weiterhin im Club zu bleiben.",
+    "source": "Quelle: Benjamin Graham; Jason Zweig. The Intelligent Investor: The Definitive Book on Value Investing. HarperCollins."
   }
 }
