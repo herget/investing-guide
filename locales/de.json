@@ -15,5 +15,9 @@
   },
   "compound": {
     "title": "Zinseszins, dein beständiger Freund! Dividiere die Zahl 72 mit deiner jährlichen Rendite und du erhältst die Anzahl der Jahre bis zu deinem doppelten Vermögen. Bei 5 Prozent Zinsen pro Jahr, hättest du in etwa 14 Jahren zweimal so viel als vorher!"
+  },
+  "diversified": {
+    "title": "1. Damit dein Erspartes nicht verpuffen kann, solltest du in breite Märkte investieren.",
+    "description": "Streue in viele Kontinente, Länder und Branchen. Keine Sorge, damit du dich nicht umständlich durch einzelne Börsen, Aktien und Geschäftsberichte schlagen musst, wurden Indexfonds geboren. Diese bilden Märkte für dich ab und erledigen die Hintergrundarbeit, dies zum Großteil automatisiert und sogar noch bei geringen Kosten!"
   }
 }
