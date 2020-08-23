@@ -33,5 +33,14 @@
   "portfolio5050": {
     "description": "Ein halb Aktien- und halb Anleihen-Fond könnte der genau richtige Mix für dich sein. Kommen die nächsten Turbulenzen auf den Aktienmärkten, wird dein Portfolio nicht so stark einbrechen und du kannst beruhigter schlafen.",
     "sample": "Der Tiefpunkt in den letzten 20 Jahren lag bei -32 % und erst nach 3 Jahren erholte er sich wieder. So viel solltest du verkraften und aussitzen, ansonsten deinen Anleihen-Anteil anheben."
+  },
+  "reserve": {
+    "fund": "Vernünftige Rücklage: Deine Tagesgeld-Reserve sollte dich mindestens 6 Monate lang über Wasser halten können, bevor du deine Aktien angreifen musst."
+  },
+  "inflation": {
+    "title": "3. Lass dein Geld nicht weniger werden",
+    "description": "Super, wenn du schon fleißig sparst, noch besser, wenn dieses Geld bestmöglich anlegst. Die jährliche Inflation führt dazu, dass du weniger für dein Geld erwerben kannst. Erinnerst du dich noch an die 72er-Regel? Diese funktioniert leider auch umgekehrt.",
+    "quote": "Aus 50.000 € werden 38.060 €",
+    "cite": "Deine Kaufkraft, basierend auf einer 20-jährigen Inflationsrate. <a href=\"https://www.zinsen-berechnen.de/inflationsrechner.php?paramid=p2znga3wbo\">Quelle: zinsen-berechnen.de</a>"
   }
 }
