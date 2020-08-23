@@ -23,7 +23,15 @@
   },
   "forbes": {
     "title": "Viele Selfmade Millionäre mussten auf ein Pferd setzen, um hohen Erfolg ernten zu können. Um reich zu bleiben, ist es aber wichtig, Vermögen breit zu streuen.",
-    "description": "ur wenige der Forbes 400 schafften dies in Tat umzusetzen. So kommt es, dass nur 16 % der Superreichen über einen Zeitraum von 20 Jahren sich in der Liste halten konnten. Lediglich 4,5 % Rendite pro Jahr wäre notwendig gewesen, um weiterhin im Club zu bleiben.",
-    "source": "Quelle: Benjamin Graham; Jason Zweig. The Intelligent Investor: The Definitive Book on Value Investing. HarperCollins."
+    "description": "Nur wenige der Forbes 400 schafften dies in Tat umzusetzen. So kommt es, dass nur 16 % der Superreichen über einen Zeitraum von 20 Jahren sich in der Liste halten konnten. Lediglich 4,5 % Rendite pro Jahr wäre notwendig gewesen, um weiterhin im Club zu bleiben."
+  },
+  "portfolio": {
+    "title": "2. Dein langfristiges Setup",
+    "quote": "94 % entscheidet die Kapitalverteilung",
+    "description": "Die Wahl deines Depot-Mix und die Disziplin über einen langen Zeitraum dabei zu bleiben, wird dein Schlüssel zum Erfolg. Nicht dein Alter sollte den Mix bestimmen, sondern vielmehr wie schnell du an dein Kapital kommen möchtest und ob du schon einmal durch eine Finanzkrise gegangen bist."
+  },
+  "portfolio5050": {
+    "description": "Ein halb Aktien- und halb Anleihen-Fond könnte der genau richtige Mix für dich sein. Kommen die nächsten Turbulenzen auf den Aktienmärkten, wird dein Portfolio nicht so stark einbrechen und du kannst beruhigter schlafen.",
+    "sample": "Der Tiefpunkt in den letzten 20 Jahren lag bei -32 % und erst nach 3 Jahren erholte er sich wieder. So viel solltest du verkraften und aussitzen, ansonsten deinen Anleihen-Anteil anheben."
   }
 }
