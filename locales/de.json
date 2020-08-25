@@ -46,7 +46,11 @@
   "expenses": {
     "title": "4. Halte all deine Kosten auf ein Minimum",
     "description": "Damit dir so viel wie möglich in der Tasche bleibt, solltest du alle variablen Kosten gering halten.",
-    "quote": "“Die größten Feinde des Aktieninvestors sind Ausgaben und Emotionen.” — John C. Bogle",
     "ol": "<li>Setze auf Indexfonds oder Fonds mit jährlichen Gesamtkosten unter einem halben Prozent</li><li>Handle über einen Billigbroker und so wenig wie möglich</li><li>Drop consultants who are looking for annual percentages</li>"
+  },
+  "expense-ratios": {
+    "quote": "“Die größten Feinde des Aktieninvestors sind Ausgaben und Emotionen.” — John C. Bogle",
+    "title": "Gebühren verbrennen deine Rendite! Bezahlst du ein Prozent mehr pro Jahr, verlierst du innerhalb von 30 Jahren über 100.000 €.",
+    "cite": "Bei einem Startkapital von 50.000 €, monatliche Sparrate von 300 € und Rendite von 6 % pro Jahr."
   }
 }
