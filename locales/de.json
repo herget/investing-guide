@@ -62,5 +62,8 @@
   "etfs": {
     "title": "6. Setze auf Indexfonds für deinen Autopiloten",
     "description": "Indexfonds sind Fonds, welche einen Marktindex abbilden und dir einen Marktdurchschnitt als Rendite abwerfen. Natürlich auch mit natürlichen Schwankungen, jedoch mit geringsten Kosten. ETFs, sind Fonds, welche du an den Börsen handeln kannst (Exchange Traded Fund)."
+  },
+  "market-returns": {
+    "title": "“Zufriedenstellende Investmentergebnisse zu erzielen ist einfacher, als du glaubst; bessere Ergebnisse zu erzielen ist schwieriger, als es aussieht.” — Benjamin Graham"
   }
 }
