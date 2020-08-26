@@ -2,7 +2,8 @@
   "site_name": "Investieren Guide",
   "source": "Quelle",
   "links": {
-    "basePath": "../"
+    "basePath": "../",
+    "canonical": "https://herget.github.io/investing-guide/de/"
   },
   "meta": {
     "title": "Intelligent Geld Investieren - In 10 Schritten zum selber Anlegen",
