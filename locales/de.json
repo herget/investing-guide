@@ -57,5 +57,9 @@
     "title": "5. Versuche nicht den Markt zu überbieten",
     "description": "96 % der besten, schaffen es nicht den Marktdurchschnitt über einen Zeitraum von 15 Jahren zu überbieten. Spare dir die Zeit und hol dir deinen Mittelwert!",
     "quote": "“Suchen Sie nicht nach der Nadel im Heuhaufen. Kaufen Sie einfach den Heuhaufen!” — John C. Bogle"
+  }, 
+  "etfs": {
+    "title": "6. Setze auf Indexfonds für deinen Autopiloten",
+    "description": "Indexfonds sind Fonds, welche einen Marktindex abbilden und dir einen Marktdurchschnitt als Rendite abwerfen. Natürlich auch mit natürlichen Schwankungen, jedoch mit geringsten Kosten. ETFs, sind Fonds, welche du an den Börsen handeln kannst (Exchange Traded Fund)."
   }
 }
