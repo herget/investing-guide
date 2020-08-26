@@ -1,5 +1,6 @@
 const gulp = require('gulp')
 const staticI18nHtml = require('gulp-static-i18n-html')
+const replace = require('gulp-replace');
 
 const img = () => 
     gulp.src(['img/*.*'])
@@ -7,6 +8,8 @@ const img = () =>
 
 const en = () => 
     gulp.src(['*.html'])
+        .pipe(replace(/data-attr-t-?(\w*)/g,"")) // Remove all translation tags starting with 'data-attr-t'
+        .pipe(replace(/(\w*)-t="(.*?)"/g,"")) // Remove translation param tags. Ffor example: 'src-t="###"'
         .pipe(gulp.dest('./dist'))
 
 const i18n = () => 
