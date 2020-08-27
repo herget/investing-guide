@@ -772,19 +772,13 @@ template {
 
     
   
-  <amp-analytics type="googleanalytics">
+  <amp-analytics type="gtag" data-credentials="include">
     <script type="application/json">
     {
-      "vars": {
-        "account": "UA-931270-2"
-      },
-      "triggers": {
-        "default pageview": {
-          "on": "visible",
-          "request": "pageview",
-          "vars": {
-            "title": "Investieren Guide - In 10 Schritten zum selber Anlegen"
-          }
+      "vars" : {
+        "gtag_id": "UA-931270-2",
+        "config" : {
+          "UA-931270-2": { "groups": "default" }
         }
       }
     }
