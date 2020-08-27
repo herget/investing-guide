@@ -1,6 +1,7 @@
 {
   "site_name": "Investieren Guide",
   "source": "Quelle",
+  "decimal":",",
   "links": {
     "basePath": "../",
     "canonical": "https://herget.github.io/investing-guide/de/"
@@ -75,6 +76,7 @@
     "type": "Ertrags­verwendung",
     "acc": "The­sau­rie­rend",
     "dist": "Ausschüttend",
+    "US-only": "",
     "euro": {
       "government-bonds": "Staats­anleihen Euro­land",
       "corp-bonds": "Unter­nehmens­anleihe Euro­land"
