@@ -65,5 +65,19 @@
   },
   "market-returns": {
     "title": "“Zufriedenstellende Investmentergebnisse zu erzielen ist einfacher, als du glaubst; bessere Ergebnisse zu erzielen ist schwieriger, als es aussieht.” — Benjamin Graham"
+  },
+  "bonds": {
+    "title": "7.1. Wähle deinen risikoarmen Teil",
+    "description": "Für den risikoarmen Teil deines Geldes kannst du dein Kapital auf Tagesgeldkonten parken. Diese Sparkonten sind meist kostenlos, du erhältst mehr Zinsen als auf der Hausbank und hast einen täglichen Zugriff. Anleihen ETFs empfehlen sich für eine Haltedauer von über 7 Jahren.",
+    "ol": " <li>Lege Sparkonten an, um deine vernünftige Rücklage aufzubauen: <a href=\"https://www.modern-banking.de/vergleich-tagesgeld-s10.php\"> Tagesgeldanbieter Deutschland</a> und <a href=\"https://www.modern-banking.at/vergleich-tagesgeld-s10.php\">   Österreich</a></li><li>Kaufe Anleihen ETFs für deinen langfristigen risikoarmen Anteil</li>",
+    "recommended": "Empfehlenswerte Renten-ETFs mit der Höchstnote von Stiftung Warentest für dich zusammengefasst.",
+    "TER": "Laufende Kosten",
+    "type": "Ertrags­verwendung",
+    "acc": "The­sau­rie­rend",
+    "dist": "Ausschüttend",
+    "euro": {
+      "government-bonds": "Staats­anleihen Euro­land",
+      "corp-bonds": "Unter­nehmens­anleihe Euro­land"
+    } 
   }
 }
