@@ -81,5 +81,14 @@
       "government-bonds": "Staats­anleihen Euro­land",
       "corp-bonds": "Unter­nehmens­anleihe Euro­land"
     } 
+  },
+  "stocks": {
+    "title": "7.2. Wähle deinen Aktien-ETF",
+    "description": "Nimm für deinen Aktienanteil ein ETF der einen weltweiten Markt abbildet. Ein Fond, basierend auf den MSCI World Index investiert für dich in 23 Länder mit der höchsten Wirtschaftsleistung und in über 1600 einzelne Aktien. Noch besser, wenn du auch in Schwellenländer anlegen möchtest. Der MSCI ACWI Index und FTSE All-World würde dann genau für dich passen.",
+    "recommended": "Empfehlenswerte Aktien ETFs mit der Höchstnote von Stiftung Warentest findest du untenstehend.",
+    "US-only": "",
+    "euro": {
+      "title": "Aktien Welt mit Schwellenländer"
+    } 
   }
 }

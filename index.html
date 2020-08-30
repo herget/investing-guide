@@ -694,7 +694,7 @@ template {
             <td data-t="bonds.dist">Distributing</td>
           </tr>
           <tr>
-            <td><a href="https://www.justetf.com/de/etf-profile.html?isin=LU0290355717">Xtra­ckers Eu­ro­zo­ne Go­vern­ment Bond Ucits ETF 1C</a></td>
+            <td><a href="https://www.justetf.com/en/etf-profile.html?isin=LU0290355717">Xtra­ckers Eu­ro­zo­ne Go­vern­ment Bond Ucits ETF 1C</a></td>
             <td>0<span data-t="decimal">.</span>15 %</td>
             <td data-t="bonds.acc">Accumulating</td>
           </tr>
@@ -712,7 +712,7 @@ template {
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://www.justetf.com/de/etf-profile.html?isin=IE00B3F81R35">iShares Core Euro Corporate Bond UCITS ETF (Dist)</a></td>
+            <td><a href="https://www.justetf.com/en/etf-profile.html?isin=IE00B3F81R35">iShares Core Euro Corporate Bond UCITS ETF (Dist)</a></td>
             <td>0<span data-t="decimal">.</span>20 %</td>
             <td data-t="bonds.dist">Distributing</td>
           </tr>
@@ -723,29 +723,75 @@ template {
 
   <a name="aktien"></a>
   <section class="stocks">
-    <h1>7.2. Wähle deinen Aktien-ETF</h1>
-    <p>Nimm für deinen Aktienanteil ein ETF der einen weltweiten Markt abbildet. Ein Fond, basierend auf den MSCI World Index investiert für dich in 23 Länder mit der höchsten Wirtschaftsleistung und in über 1600 einzelne Aktien. Noch besser, wenn du auch in Schwellenländer anlegen möchtest. Der MSCI ACWI Index und FTSE All-World würde dann genau für dich passen.</p>
+    <h1 data-t="stocks.title">7.2. Time for Your Stocks</h1>
+    <p data-t="stocks.description">Diversify and invest your capital widely. On several continents, in many sectors and spread over many stocks. This is the key to long-term investing. Select low-cost investments to build your portfolio. </p>
 
-    <p>Empfehlenswerte Aktien ETFs mit der Höchstnote von Stiftung Warentest findest du untenstehend.</p>
-    <blockquote>Aktien Welt mit Schwellenländer</blockquote> 
+    <div data-t="stocks.US-only">
+      <blockquote>Index Funds for US Investors</blockquote>
+      <table>
+        <thead>
+          <tr>
+            <th>Total-U.S. Equity Markets (Including Micro-Caps)</th>
+            <th data-t="bonds.TER">Total Expense Ratio</th>
+            <th data-t="bonds.type">Share Class</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://investor.vanguard.com/etf/profile/VTI">Vanguard Total Stock Market ETF</a></td>
+            <td>0<span data-t="decimal">.</span>03 %</td>
+            <td data-t="bonds.dist">Distributing</td>
+          </tr>
+          <tr>
+            <td><a href="https://fundresearch.fidelity.com/mutual-funds/summary/315911693">Fidelity Total Market Index Fund</a></td>
+            <td>0<span data-t="decimal">.</span>035 %</td>
+            <td data-t="bonds.acc">Distributing</td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
+            <th>Developed and Emerging Non-U.S. Equity Markets</th>
+            <th data-t="bonds.TER">Total Expense Ratio</th>
+            <th data-t="bonds.type">Share Class</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://investor.vanguard.com/etf/profile/vxus">Vanguard Total International Stock ETF</a></td>
+            <td>0<span data-t="decimal">.</span>08 %</td>
+            <td data-t="bonds.dist">Distributing</td>
+          </tr>
+          <tr>
+            <td><a href="https://fundresearch.fidelity.com/mutual-funds/summary/315911727">Fidelity International Index Fund</a></td>
+            <td>0<span data-t="decimal">.</span>035 %</td>
+            <td data-t="bonds.acc">Distributing</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p data-t="stocks.recommended"></p>
+    <blockquote data-t="stocks.euro.title">Index Funds for EU Investors</blockquote> 
     <table>
       <thead>
         <tr>
-          <th></th>
-          <th>Laufende Kosten</th>
-          <th>Ertrags­verwendung</th>
+          <th data-t="stocks.US-only">Stocks From Developed and Emerging Countries Worldwide</th>
+          <th data-t="bonds.TER">Total Expense Ratio</th>
+            <th data-t="bonds.type">Share Class</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><a href="https://www.justetf.com/de/etf-profile.html?isin=IE00B44Z5B48">SPDR MSCI ACWI (All Coun­try World) Ucits ETF</a></td>
-          <td>0,40 %</td>
-          <td>The­sau­rie­rend</td>
+          <td><a href="https://www.justetf.com/en/etf-profile.html?isin=IE00B44Z5B48">SPDR MSCI ACWI (All Coun­try World) Ucits ETF</a></td>
+          <td>0<span data-t="decimal">.</span>40 %</td>
+          <td data-t="bonds.acc">Accumulating</td>
         </tr>
         <tr>
-          <td><a href="https://www.justetf.com/de/etf-profile.html?isin=IE00B3RBWM25">Vanguard FTSE All-World UCITS ETF</a></td>
-          <td>0,25 %</td>
-          <td>Ausschüttend</td>
+          <td><a href="https://www.justetf.com/en/etf-profile.html?isin=IE00B3RBWM25">Vanguard FTSE All-World UCITS ETF</a></td>
+          <td>0<span data-t="decimal">.</span>22 %</td>
+          <td data-t="bonds.dist">Distributing</td>
         </tr>
       </tbody>
     </table>
@@ -759,7 +805,7 @@ template {
         Für den Kauf deiner ETFs solltest du einen Billigbroker aussuchen. Jährliche Depotgebühren und Ordergebühren sollten so klein wie möglich sein, schließlich willst du die Zinseszinsen so effektiv wie möglich für dich arbeiten lassen!
       </p>
       <ol>
-        <li><a href="https://www.justetf.com/de/online-broker-vergleich/etfs-kaufen.html">Broker vergleichen und Konto anlegen</a> <a href="https://www.broker-test.at/online-broker/vergleich/#online_broker_vergleich">(für Österreich)</a> </li>
+        <li><a href="https://www.justetf.com/en/online-broker-vergleich/etfs-kaufen.html">Broker vergleichen und Konto anlegen</a> <a href="https://www.broker-test.at/online-broker/vergleich/#online_broker_vergleich">(für Österreich)</a> </li>
         <li>Achte auf jährliche Depotkosten, Trading-Kosten und Anzahl an sparplanfähigen ETFs</li>
       </ol>
     </section>
@@ -770,7 +816,7 @@ template {
         <p>Sparpläne ermöglichen dir ein automatisiertes Sparen. Monatliches Anlegen kann dir zusätzlich noch helfen, dein angelegtes Kapital auf Monate zu verteilen und so das Risiko eines einmal Kaufes bei hohen Kursen zu vermeiden.  
         </p>
         <ol>
-          <li><a href="https://www.justetf.com/de/etf-strategy-builder.html?type=savingsPlan">Finde deinen Sparplan mithilfe des ETF Strategie Planers</a></li>
+          <li><a href="https://www.justetf.com/en/etf-strategy-builder.html?type=savingsPlan">Finde deinen Sparplan mithilfe des ETF Strategie Planers</a></li>
           <li><a href="https://www.zinsen-berechnen.de/sparrechner.php?paramid=c8lypk81ss"> Simuliere Wertentwicklungen mit dem Sparrechner</a></li>
         </ol>
         
