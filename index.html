@@ -32,352 +32,10 @@
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
   <style amp-custom>
-    /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
-
-/* Document
-   ========================================================================== */
-
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-
-html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
-
-/* Sections
-   ========================================================================== */
-
-/**
- * Remove the margin in all browsers.
- */
-
-body {
-  margin: 0;
-}
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-/* Grouping content
-   ========================================================================== */
-
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
-
-hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
-}
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-
-pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
-}
-
-/* Text-level semantics
-   ========================================================================== */
-
-/**
- * Remove the gray background on active links in IE 10.
- */
-
-a {
-  background-color: transparent;
-}
-
-/**
- * 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-
-abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
-}
-
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-
-b,
-strong {
-  font-weight: bolder;
-}
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-
-code,
-kbd,
-samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
-}
-
-/**
- * Add the correct font size in all browsers.
- */
-
-small {
-  font-size: 80%;
-}
-
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-sup {
-  top: -0.5em;
-}
-
-/* Embedded content
-   ========================================================================== */
-
-/**
- * Remove the border on images inside links in IE 10.
- */
-
-img {
-  border-style: none;
-}
-
-/* Forms
-   ========================================================================== */
-
-/**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
- */
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
-}
-
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
-
-button,
-input { /* 1 */
-  overflow: visible;
-}
-
-/**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
-
-button,
-select { /* 1 */
-  text-transform: none;
-}
-
-/**
- * Correct the inability to style clickable types in iOS and Safari.
- */
-
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-
-/**
- * Remove the inner border and padding in Firefox.
- */
-
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-
-/**
- * Restore the focus styles unset by the previous rule.
- */
-
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-
-/**
- * Correct the padding in Firefox.
- */
-
-fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
-
-/**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers.
- */
-
-legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
-}
-
-/**
- * Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
-
-progress {
-  vertical-align: baseline;
-}
-
-/**
- * Remove the default vertical scrollbar in IE 10+.
- */
-
-textarea {
-  overflow: auto;
-}
-
-/**
- * 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10.
- */
-
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
-}
-
-/**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
-
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
-/**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
-
-[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
-}
-
-/**
- * Remove the inner padding in Chrome and Safari on macOS.
- */
-
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-/**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
-
-::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
-}
-
-/* Interactive
-   ========================================================================== */
-
-/*
- * Add the correct display in Edge, IE 10+, and Firefox.
- */
-
-details {
-  display: block;
-}
-
-/*
- * Add the correct display in all browsers.
- */
-
-summary {
-  display: list-item;
-}
-
-/* Misc
-   ========================================================================== */
-
-/**
- * Add the correct display in IE 10+.
- */
-
-template {
-  display: none;
-}
-
-/**
- * Add the correct display in IE 10.
- */
-
-[hidden] {
-  display: none;
-}
-
-
       html {
-          font-size: 27px;
+          font-size: 20px;
           line-height: 2;
 
           font-family: 'Lato', sans-serif;
@@ -392,8 +50,9 @@ template {
           line-height: 150%;
           font-weight: normal;
       }
-      h2  {
-          font-size: 1.85em;
+
+      h1 {
+        font-size: 2em;
       }
 
       a {
@@ -410,14 +69,13 @@ template {
           display: block;
           position: relative;
           background: #fafafa;
-          padding: 150px 0; 
+          padding: 70px 0; 
           margin: 0 0 20px 0;
       }
 
       p, ol, ul, b, cite, table, div {
-      
           width: 800px;
-          margin: 8% auto;
+          margin: 80px auto;
           line-height: 170%;
       } 
 
@@ -505,24 +163,29 @@ template {
           padding-right: 0; 
       }
 
-      .ct-chart-pie .ct-label {
-          fill: #f4f4f4;
-          font-size:  0.9em;
-      }
-
       @media (max-width: 992px) {
-          body { font-size: 60%;}
+          body { font-size: 80%;}
           
-          section {
+          section, div {
             width: auto;
-            padding: 30px 0;
           } 
 
-          h2  {font-size: 1.5em;}
+          section {
+            padding: 30px 0;
+          }
+
+         
+          h1 {
+              font-size: 2em;
+          }
+          h2 {
+              font-size: 1.5em;
+          }
 
           h1, h2, h3, p, ol, ul, cite, table {
               width: auto;
               padding: 0 40px;
+              margin: 45px auto;
           } 
       } 
 
@@ -564,7 +227,7 @@ template {
 
   <a name="breite-märkte"></a>
   <section class="diversified">
-     <h1 >1. You Should Invest in Broad Markets So That Your Savings Do Not Fizzle Out.</h1>
+     <h1 >1. You Should Invest in Broad Markets So That Your Savings Do Not Fizzle Out</h1>
       <p >Spread your money to many continents, countries and industries. You don't have to dig through individual exchanges, stocks and annual reports. Index funds were born to make your life easier. They track markets for you and do the background work, mostly automated based on a predefined index and at very low costs!
       </p>
   </section>
@@ -611,7 +274,7 @@ template {
     <h1 >4. Keep Your Costs Minimal</h1>
       <p >Make sure you keep all variable costs as low as possible. </p>
       <ol >
-        <li>Focus on index funds or funds with total annual costs below half a percent</li><li>Trade via an affordable broker and as little as possible</li><li>Streiche Berater, die auf jährliche Prozente aus sind</li>
+        <li>Focus on index funds or funds with total annual costs below half a percent</li><li>Trade via an affordable broker and as little as possible</li><li>Drop consultants who are looking for annual fees</li>
       </ol>
   </section>
 
@@ -623,7 +286,7 @@ template {
   
   <a name="markdurschnitt"></a>
   <section class="market">
-      <h1 >5. Don't Try to Outbid the Market</h1>
+      <h1 >5. Don't Try to Beat the Market</h1>
       <p >96 % of the best, do not manage to outperform the market average over a period of 15 years. Save yourself the time and get your average!</p>
       <h2 >“Don’t look for the needle in the haystack. Just buy the haystack!” — John C. Bogle</h2>
       <cite><span >Source</span>: Bogle, John C.. The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns (Little Books. Big Profits) (p. 36). Wiley.</cite>
@@ -633,7 +296,7 @@ template {
   <section class="etfs">
     <h1 >6. Index Funds on Autopilot</h1>
     <p >
-      Index funds track a market index and give you a market average as your return. Fluctuations included, but at the lowest cost. ETFs, are funds which you can trade on the stock exchanges (Exchange Traded Fund).
+      Index funds track a market index and give you a market average as your return. Fluctuations included, but at the lowest cost. ETFs are funds which you can trade on the stock exchanges (Exchange Traded Fund).
     </p>
   </section>
 
@@ -694,7 +357,7 @@ template {
             <td >Distributing</td>
           </tr>
           <tr>
-            <td><a href="https://www.justetf.com/de/etf-profile.html?isin=LU0290355717">Xtra­ckers Eu­ro­zo­ne Go­vern­ment Bond Ucits ETF 1C</a></td>
+            <td><a href="https://www.justetf.com/en/etf-profile.html?isin=LU0290355717">Xtra­ckers Eu­ro­zo­ne Go­vern­ment Bond Ucits ETF 1C</a></td>
             <td>0<span >.</span>15 %</td>
             <td >Accumulating</td>
           </tr>
@@ -712,7 +375,7 @@ template {
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://www.justetf.com/de/etf-profile.html?isin=IE00B3F81R35">iShares Core Euro Corporate Bond UCITS ETF (Dist)</a></td>
+            <td><a href="https://www.justetf.com/en/etf-profile.html?isin=IE00B3F81R35">iShares Core Euro Corporate Bond UCITS ETF (Dist)</a></td>
             <td>0<span >.</span>20 %</td>
             <td >Distributing</td>
           </tr>
@@ -723,29 +386,86 @@ template {
 
   <a name="aktien"></a>
   <section class="stocks">
-    <h1>7.2. Wähle deinen Aktien-ETF</h1>
-    <p>Nimm für deinen Aktienanteil ein ETF der einen weltweiten Markt abbildet. Ein Fond, basierend auf den MSCI World Index investiert für dich in 23 Länder mit der höchsten Wirtschaftsleistung und in über 1600 einzelne Aktien. Noch besser, wenn du auch in Schwellenländer anlegen möchtest. Der MSCI ACWI Index und FTSE All-World würde dann genau für dich passen.</p>
+    <h1 >7.2. Time for Your Stocks</h1>
+    <p >Diversify and invest your capital widely. On several continents, in many sectors and spread over many stocks. This is the key to long-term investing. Select low-cost investments to build your portfolio. </p>
 
-    <p>Empfehlenswerte Aktien ETFs mit der Höchstnote von Stiftung Warentest findest du untenstehend.</p>
-    <blockquote>Aktien Welt mit Schwellenländer</blockquote> 
+    <div >
+      <blockquote>Index Funds for US Investors</blockquote>
+      <table>
+        <thead>
+          <tr>
+            <th>Total-U.S. Equity Markets (Including Micro-Caps)</th>
+            <th >Total Expense Ratio</th>
+            <th >Share Class</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://investor.vanguard.com/etf/profile/VTI">Vanguard Total Stock Market ETF</a></td>
+            <td>0<span >.</span>03 %</td>
+            <td >Distributing</td>
+          </tr>
+          <tr>
+            <td><a href="https://fundresearch.fidelity.com/mutual-funds/summary/315911693">Fidelity Total Market Index Fund</a></td>
+            <td>0<span >.</span>035 %</td>
+            <td >Distributing</td>
+          </tr>
+        </tbody>
+      </table>
+      <svg
+        width="32"
+        height="32"
+        fill="none"
+        stroke="#444"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <use xlink:href="img/feather-sprite.svg#plus" />
+      </svg>
+      <table>
+        <thead>
+          <tr>
+            <th>Developed and Emerging Non-U.S. Equity Markets</th>
+            <th >Total Expense Ratio</th>
+            <th >Share Class</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://investor.vanguard.com/etf/profile/vxus">Vanguard Total International Stock ETF</a></td>
+            <td>0<span >.</span>08 %</td>
+            <td >Distributing</td>
+          </tr>
+          <tr>
+            <td><a href="https://fundresearch.fidelity.com/mutual-funds/summary/315911727">Fidelity International Index Fund</a></td>
+            <td>0<span >.</span>035 %</td>
+            <td >Distributing</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p ></p>
+    <blockquote >Index Funds for EU Investors</blockquote> 
     <table>
       <thead>
         <tr>
-          <th></th>
-          <th>Laufende Kosten</th>
-          <th>Ertrags­verwendung</th>
+          <th >Stocks From Developed and Emerging Countries Worldwide</th>
+          <th >Total Expense Ratio</th>
+            <th >Share Class</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><a href="https://www.justetf.com/de/etf-profile.html?isin=IE00B44Z5B48">SPDR MSCI ACWI (All Coun­try World) Ucits ETF</a></td>
-          <td>0,40 %</td>
-          <td>The­sau­rie­rend</td>
+          <td><a href="https://www.justetf.com/en/etf-profile.html?isin=IE00B44Z5B48">SPDR MSCI ACWI (All Coun­try World) Ucits ETF</a></td>
+          <td>0<span >.</span>40 %</td>
+          <td >Accumulating</td>
         </tr>
         <tr>
-          <td><a href="https://www.justetf.com/de/etf-profile.html?isin=IE00B3RBWM25">Vanguard FTSE All-World UCITS ETF</a></td>
-          <td>0,25 %</td>
-          <td>Ausschüttend</td>
+          <td><a href="https://www.justetf.com/en/etf-profile.html?isin=IE00B3RBWM25">Vanguard FTSE All-World UCITS ETF</a></td>
+          <td>0<span >.</span>22 %</td>
+          <td >Distributing</td>
         </tr>
       </tbody>
     </table>
@@ -759,7 +479,7 @@ template {
         Für den Kauf deiner ETFs solltest du einen Billigbroker aussuchen. Jährliche Depotgebühren und Ordergebühren sollten so klein wie möglich sein, schließlich willst du die Zinseszinsen so effektiv wie möglich für dich arbeiten lassen!
       </p>
       <ol>
-        <li><a href="https://www.justetf.com/de/online-broker-vergleich/etfs-kaufen.html">Broker vergleichen und Konto anlegen</a> <a href="https://www.broker-test.at/online-broker/vergleich/#online_broker_vergleich">(für Österreich)</a> </li>
+        <li><a href="https://www.justetf.com/en/online-broker-vergleich/etfs-kaufen.html">Broker vergleichen und Konto anlegen</a> <a href="https://www.broker-test.at/online-broker/vergleich/#online_broker_vergleich">(für Österreich)</a> </li>
         <li>Achte auf jährliche Depotkosten, Trading-Kosten und Anzahl an sparplanfähigen ETFs</li>
       </ol>
     </section>
@@ -770,7 +490,7 @@ template {
         <p>Sparpläne ermöglichen dir ein automatisiertes Sparen. Monatliches Anlegen kann dir zusätzlich noch helfen, dein angelegtes Kapital auf Monate zu verteilen und so das Risiko eines einmal Kaufes bei hohen Kursen zu vermeiden.  
         </p>
         <ol>
-          <li><a href="https://www.justetf.com/de/etf-strategy-builder.html?type=savingsPlan">Finde deinen Sparplan mithilfe des ETF Strategie Planers</a></li>
+          <li><a href="https://www.justetf.com/en/etf-strategy-builder.html?type=savingsPlan">Finde deinen Sparplan mithilfe des ETF Strategie Planers</a></li>
           <li><a href="https://www.zinsen-berechnen.de/sparrechner.php?paramid=c8lypk81ss"> Simuliere Wertentwicklungen mit dem Sparrechner</a></li>
         </ol>
         
