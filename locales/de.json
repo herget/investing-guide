@@ -90,5 +90,10 @@
     "euro": {
       "title": "Aktien Welt mit Schwellenländer"
     } 
+  },
+  "broker": {
+    "title": "8. Billigbroker aussuchen",
+    "description": "Für den Kauf deiner ETFs solltest du einen Billigbroker aussuchen. Jährliche Depotgebühren und Ordergebühren sollten so klein wie möglich sein, schließlich willst du die Zinseszinsen so effektiv wie möglich für dich arbeiten lassen!",
+    "ol": "<li><a href=\"https://www.justetf.com/en/online-broker-vergleich/etfs-kaufen.html\">Broker vergleichen und Konto anlegen</a> <a href=\"https://www.broker-test.at/online-broker/vergleich/#online_broker_vergleich\">(für Österreich)</a> </li><li>Achte auf jährliche Depotkosten, Trading-Kosten und Anzahl an sparplanfähigen ETFs</li>"
   }
 }
