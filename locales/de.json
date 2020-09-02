@@ -101,5 +101,9 @@
     "description": "Sparpläne ermöglichen dir ein automatisiertes Sparen. Monatliches Anlegen kann dir zusätzlich noch helfen, dein angelegtes Kapital auf Monate zu verteilen und so das Risiko eines einmal Kaufes bei hohen Kursen zu vermeiden.",
     "ol": "<li><a href=\"https://www.justetf.com/en/etf-strategy-builder.html?type=savingsPlan\">Finde deinen Sparplan mithilfe des ETF Strategie Planers</a></li><li><a href=\"https://www.zinsen-berechnen.de/sparrechner.php?paramid=c8lypk81ss\"> Simuliere Wertentwicklungen mit dem Sparrechner</a></li>",
     "quote": "“Investitionen gleicher Beträge können die Risiken von Aktieninvestitionen verringern (aber nicht vermeiden), indem sichergestellt wird, dass nicht das gesamte Portfolio von Aktien zu vorübergehend überhöhten Preisen gekauft wird.” — Burton Malkiel"
+  },
+  "rebalancing": {
+    "title": "10. Jährlichen Wecker stellen",
+    "description": "Märkte werden unterschiedlich schwanken, damit du ¨aber bei deinem definierten Plan und Risiko bleibst, solltest du einmal jährlich dein Portfolio öffnen und analysieren. Stellst du zum Beispiel fest, dass die Aktien-Fonds stärker gewachsen sind, solltest du entweder deinen Sparplan anpassen oder mehr Anleihen nachkaufen."
   }
 }
