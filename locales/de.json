@@ -4,7 +4,8 @@
   "decimal":",",
   "links": {
     "basePath": "../",
-    "canonical": "https://herget.github.io/investing-guide/de/"
+    "canonical": "https://herget.github.io/investing-guide/de/",
+    "comments": "https://herget.me/amp-disqus.html#investing-guide/de"
   },
   "meta": {
     "title": "Intelligent Geld Investieren - In 10 Schritten zum selber Anlegen",
@@ -109,5 +110,6 @@
   "risks": {
     "title": "Das größte Risiko bei der Geld­anlage bleibt das Markt­risiko, welche du durch die Auswahl der passenden Indizes und eine vernünftige Asset Allokation von dir selbst gesteuert werden kann.",
     "cite": "<a href=\"https://www.test.de/ETF-Boersengehandelte-Indexfonds-Ueber-die-Risiken-von-ETF-4309760-4312895\">Quelle: Stiftung Warentest, über die Risiken von ETF</a>"
-  }
+  },
+  "comments": "Kommentare"
 }
