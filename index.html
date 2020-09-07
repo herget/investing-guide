@@ -211,11 +211,15 @@
     <p data-t="intro.description">A little guide of common sense investing. A broadly diversified, low-cost portfolio without the risks of individual stocks. Set up once and rebalance yearly. This open guide shows you how to make index investing work for you and help you achieve your financial goals.</p>
     <p>Read in <a data-attr-t data-attr-t-interpolate href-t="{{links.basePath}}">English</a> or in <a href="de" data-attr-t href-t="#">Deutsch</a>.</p>
   
-    <cite><a data-t="intro.portfolio" 
-      href="https://www.portfoliovisualizer.com/backtest-asset-class-allocation?s=y&mode=2&startYear=2000&endYear=2020&initialAmount=10000&annualOperation=0&annualAdjustment=0&inflationAdjusted=true&annualPercentage=0.0&frequency=4&rebalanceType=1&portfolio1=Custom&portfolio2=Custom&portfolio3=Custom&TotalStockMarket1=33.33&IntlStockMarket1=16.67&GlobalBond1=50">
-      20 Year Portfolio Results (10,000 USD) - Broadly diversified 50% Stocks- / 50% Bonds
-      </a>
-    </cite>
+    <p>
+      <amp-img src="img/portfolio-results.svg" data-attr-t data-attr-t-interpolate src-t="{{links.basePath}}img/portfolio-results.svg" alt="Portfolio Results" width="789" height="450" layout="responsive"></amp-img>
+      <a data-t="intro.portfolio" 
+        target="_blank"
+        href="https://www.portfoliovisualizer.com/backtest-asset-class-allocation?s=y&mode=2&startYear=2000&endYear=2020&initialAmount=10000&annualOperation=0&annualAdjustment=0&inflationAdjusted=true&annualPercentage=0.0&frequency=4&rebalanceType=1&portfolio1=Custom&portfolio2=Custom&portfolio3=Custom&TotalStockMarket1=33.33&IntlStockMarket1=16.67&GlobalBond1=50">
+        20 Year Portfolio Results (10,000 USD) - Broadly diversified 50/50 stock/bond allocation
+        </a>
+    </p>
+   
 
   </section>
 
@@ -533,22 +537,22 @@
   <section>
     <h1 data-t="comments">Comments</h1>
     <div>
-    <amp-iframe width=600 height=140
-    layout="responsive"
-    sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-    resizable
-    src="https://herget.me/amp-disqus.html#investing-guide"
-    data-attr-t src-t="links.comments"
-  >
-    <div overflow
-      tabindex=0
-      role=button
-      aria-label="Load more"
-      style="display:block;font-size:12px;font-weight:500;font-family:Helvetica Neue, arial, sans-serif;text-align:center;line-height:1.1;padding:12px 16px;border-radius:4px;background:rgba(29,47,58,0.6);color:rgb(255,255,255)"
+      <amp-iframe width=600 height=140
+        layout="responsive"
+        sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+        resizable
+        src="https://herget.me/amp-disqus.html#investing-guide"
+        data-attr-t src-t="links.comments"
       >
-      Load more
-    </div>
-  </amp-iframe>
+        <div overflow
+          tabindex=0
+          role=button
+          aria-label="Load more"
+          style="display:block;font-size:12px;font-weight:500;font-family:Helvetica Neue, arial, sans-serif;text-align:center;line-height:1.1;padding:12px 16px;border-radius:4px;background:rgba(29,47,58,0.6);color:rgb(255,255,255)"
+          >
+          Load more
+        </div>
+      </amp-iframe>
     </div>
 </section>
 
