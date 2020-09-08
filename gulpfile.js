@@ -1,6 +1,7 @@
 const gulp = require('gulp')
 const replace = require('gulp-replace');
 const staticI18nHtml = require('gulp-static-i18n-html')
+const gls = require('gulp-live-server')
 
 const img = () => 
     gulp.src(['img/*.*'])
@@ -19,7 +20,17 @@ const i18n = () =>
             locales: ['de']
         }))
         .pipe(gulp.dest('./dist'))
+       
+const serve = () => {
+    const server = gls.static('dist')
+    server.start()
+
+    gulp.watch(['*.html', 'locales/*.json'], build);
+    gulp
+        .watch(['dist/**/*'])
+        .on('change', path => server.notify.call(server, { path }))
+}
 
 const build = gulp.parallel(img, en, i18n)
 exports.default = build
-exports.watch = () => gulp.watch(['*.html', 'locales/*.json'], build);
+exports.serve = serve

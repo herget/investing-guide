@@ -4,7 +4,7 @@
   "description": "Open Investing Guide",
   "main": "index.html",
   "scripts": {
-    "start": "gulp watch",
+    "start": "gulp serve",
     "build": "gulp"
   },
   "author": "Gabor Herget",
@@ -12,6 +12,7 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-replace": "^1.0.0",
-    "gulp-static-i18n-html": "^0.4.0"
+    "gulp-static-i18n-html": "^0.4.0",
+    "gulp-live-server": "0.0.31"
   }
 }
