@@ -9,7 +9,7 @@ This tutorial is made with vanilla HTML and CSS. Translations and contributions 
 - AMP ⚡: It's an AMP-based static site. <a href="https://amp.dev/">AMP</a> is a web component framework for easily creating user-first websites. 
 - GitHub actions: Automatic build and deployment to GitHub pages. No local build required. Files can be commited right in the browser.
 - Chart: <a href="https://codesandbox.io/s/portfolio-roughviz-mw6s4?file=/index.html">Made with RoughViz and embedded as static SVG.</a>
-- Node & gulp: Node.js, npm and gulp is used to build the translations.
+- Node & gulp: Node.js, npm and gulp are used to build the translations.
 - static-i18n: It's using the static-i18n translation framework (<a href="https://www.npmjs.com/package/gulp-static-i18n-html">gulp-static-i18n-html</a>) to generate the static html files.  
 - Analytics: Google Tag Manager for AMP to track page view, time on site and scrolldepth.
 - Comments: Disqus comments embedded as amp-iframe. <a href="https://github.com/disqus/disqus-install-examples/tree/master/google-amp">How to use disqus with amp.</a>
