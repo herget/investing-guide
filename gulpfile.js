@@ -10,7 +10,7 @@ const img = () =>
 const en = () => 
     gulp.src(['*.html'])
         .pipe(replace(/data-attr-t-?(\w*)/g,"")) // Remove all translation tags starting with 'data-attr-t'.
-        .pipe(replace(/(\w*)-t="(.*?)"/g,"")) // Remove translation param tags ending with '-t=""'. Examples: 'src-t="image.png"', href-t="../de"
+        .pipe(replace(/(\w*:)?(\w*)-t="(.*?)"/g,"")) // Remove translation param tags ending with '-t=""'. Examples: 'src-t="image.png"', href-t="../de"
         .pipe(gulp.dest('./dist'))
 
 const i18n = () => 
