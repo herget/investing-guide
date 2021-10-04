@@ -1,6 +1,6 @@
 # Investing Guide - The Simple Guide of Common Sense Investing
 <a href="https://herget.github.io/investing-guide/"><img src="https://github.com/herget/investing-guide/raw/master/img/investing-guide-growth.jpg"  width="450" alt="Investing Guide"></a><br>
-https://herget.github.io/investing-guide/
+New version here: https://herget.me/investing-guide
 
 
 ## Technology
